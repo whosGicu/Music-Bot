@@ -1,3 +1,3 @@
 # Music-Bot
 
-Coming soon bot
+For problems, contact whosGicu#8599
