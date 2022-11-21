@@ -1,0 +1,47 @@
+{
+  "name": "whosgicu",
+  "version": "2.0.1",
+  "description": "A music discord bot, made with ♥ with the help of his whosGicu.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "whosGicu",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@discordjs/voice": "^0.7.5",
+    "@distube/soundcloud": "^1.1.0",
+    "@distube/spotify": "^1.1.0",
+    "@distube/ytdl-core": "^4.11.1",
+    "discord-api-types": "^0.26.0",
+    "discord.js": "^13.6.0",
+    "distube": "^3.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.4.0",
+    "genius-lyrics-api": "^3.2.0",
+    "humanize-duration": "^3.27.0",
+    "libsodium-wrappers": "^0.7.9",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.7",
+    "opusscript": "0.0.8",
+    "string-progressbar": "^1.0.4",
+    "ytdl-core": "^4.10.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.20.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "nodemon": "^2.0.14"
+  }
+}
